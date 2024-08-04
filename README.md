@@ -70,16 +70,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 ### File Descriptions  
-App.js: The main component that manages the state and renders the other components.
-ATM.js: The component that simulates the ATM interface.
-Keypad.js: The component that renders the keypad for entering amounts.
-Display.js: The component that displays the entered amount.
-Result.js: The component that shows the denominations for the entered amount.
-ATM.css, Keypad.css, Display.css, Result.css: CSS files for styling the respective components.
-500-bill.png, back-arrow-icon.png: Images used in the application.
+
+* App.js: The main component manages the state and renders the other components.
+* ATM.js: The component that simulates the ATM interface.
+* Keypad.js: The component that renders the keypad for entering amounts.
+* Display.js: The component that displays the entered amount.
+* Result.js: The component that shows the denominations for the entered amount.
+* ATM.css, Keypad.css, Display.css, Result.css: CSS files for styling the respective components.
+* 500-bill.png, back-arrow-icon.png: Images used in the application.
 
 ### Adding New Money Denominations
-To add a new type of money denomination, simply update the moneyTypes array in ATM.js:
+
+#### To add a new type of money denomination, simply update the moneyTypes array in ATM.js:
 const moneyTypes = [
   { type: 'note', value: 1000 },
   { type: 'note', value: 500 },
