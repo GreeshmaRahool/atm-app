@@ -1,0 +1,57 @@
+
+.atm-container {
+    text-align: center;
+    background: #2bbed3;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 90%;
+    box-sizing: border-box;
+    color: white;
+    margin: 0 auto;
+    position: relative;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  .display-input {
+    font-size: 80px;
+    text-align: center;
+    border: none;
+    background: none;
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  @media (max-width: 600px) {
+    .atm-container {
+      padding: 10px;
+    }
+  
+    .display-input {
+      font-size: 60px;
+    }
+  
+    .keypad button {
+      padding: 15px;
+      font-size: 18px;
+    }
+  
+    .keypad .submit {
+      font-size: 20px;
+    }
+  
+    .result .amount {
+      font-size: 30px;
+    }
+  
+    .result .thank-you {
+      font-size: 18px;
+    }
+  }
+  
